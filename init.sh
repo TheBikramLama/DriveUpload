@@ -15,5 +15,4 @@ echo "'./upload.sh' To upload a file."
 echo ""
 echo "'./logout.sh' To logout from current gdrive."
 echo ""
-read -n 1 -s -r -p "Press any key to continue."
 clear
