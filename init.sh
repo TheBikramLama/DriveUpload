@@ -7,7 +7,7 @@ sudo apt-get install -y aria2
 
 # Make Executables
 chmod +x upload.sh
-chmod +x upload.sh
+chmod +x logout.sh
 
 # Exit
 clear
