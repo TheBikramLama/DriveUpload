@@ -37,9 +37,9 @@ startDownload() {
 startUpload() {
     clear
 	if [ -z "${folderid}" ]; then 
-		gdrive upload --parent "$folderid" "$name" --delete
-	else 
 		gdrive upload "$name" --delete
+	else 
+		gdrive upload --parent "$folderid" "$name" --delete
 	fi
 }
 
