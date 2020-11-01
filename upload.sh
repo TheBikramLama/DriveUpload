@@ -36,7 +36,8 @@ startDownload() {
 # Uploader Function
 startUpload() {
     clear
-	if [ -z "${folderid}" ]; then 
+    # If folderId is empty upload to root directory
+	if [ -z "${folderid}" ]; then
 		gdrive upload "$name" --delete
 	else 
 		gdrive upload --parent "$folderid" "$name" --delete
