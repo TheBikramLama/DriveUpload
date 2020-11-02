@@ -30,12 +30,14 @@ checkGdrive() {
 # Downloader Function
 startDownload() {
 	clear
-	aria2c -o "$name" "$url"
+	mkdir downloads
+	aria2c -d "downloads" -o "$name" "$url"
 }
 
 # Uploader Function
 startUpload() {
 	clear
+	cd downloads
 	# If folderId is empty upload to root directory
 	if [ -z "${folderid}" ]; then
 		gdrive upload "$name" --delete
