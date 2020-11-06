@@ -16,3 +16,7 @@ echo ""
 echo "'./logout.sh' To logout from current gdrive."
 echo ""
 clear
+
+# Check Google drive
+gdrive about
+clear
