@@ -25,3 +25,4 @@ Run **logout.sh**<br />
 <br /><br />
 ## Credits
 - [Gdrive](https://github.com/prasmussen/gdrive)
+- [Aria2](https://aria2.github.io)
